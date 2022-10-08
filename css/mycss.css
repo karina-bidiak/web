@@ -1,0 +1,288 @@
+html{
+    box-sizing: border-box;
+    height: auto;
+}
+
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue ;
+}
+header{
+    background-color: aliceblue;
+}
+
+nav{
+    background-color: ghostwhite;
+    display: flex;
+    /*justify-content: end;*/
+    align-items: center;
+    height: 200px;
+    font-weight: 700;
+    width: 100%;
+    padding: 25px;
+    margin: 0;
+}
+
+nav a:nth-child(2){
+    margin-left: auto;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-right: 50px;
+    font-family: 'Sintony', sans-serif;
+    font-size: 25px;
+}
+nav a:hover{
+    color: darkcyan;
+}
+nav .logo{
+    max-width: 150px;
+    max-height: 150px;
+    justify-content: start;
+}
+
+nav .tel{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+hr{
+    background: black;
+    height: 5px;
+}
+
+.down{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.down a{
+    text-decoration: none;
+    color: #0035ab;
+}
+
+.down span, h1, h3{
+    margin: 20px;
+    font-family: 'Sintony', sans-serif;
+}
+
+.down h1{
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.down h3{
+    font-size: 50px;
+    color: black;
+}
+
+.down h1:hover{
+    color: darkcyan;
+}
+
+.down p{
+    color: darkcyan;
+}
+
+.btn{
+    background-color: white;
+    padding: 15px 30px;
+    border: black double 6px;
+}
+.btn:hover{
+    background-color: cadetblue;
+}
+
+.btn a{
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Anton', sans-serif;
+    text-decoration: none;
+    transition: color 0.6s linear;
+}
+/*index*/
+.container{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+/*index*/
+.content{
+
+    background-color: ghostwhite;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    text-align: center;
+    width: 30%;
+    min-width: 500px;
+    height: 400px;
+    box-shadow: 0 0 20px rgba(0, 0,0, 0.5);
+    padding: 30px;
+    margin: 15px auto;
+}
+
+.content h3{
+    font-size: 20px;
+    color: black;
+}
+
+.content h3:hover{
+    color: darkcyan;
+}
+.content p{
+    font-size: 18px;
+}
+.ding{
+    max-height: 50px;
+    max-width: 50px;
+    min-height: 20px;
+    min-width: 20px;
+}
+
+ h2{
+    text-align: center;
+    color: black ;
+    justify-content: center;
+}
+
+.register{
+    width: 500px;
+    align-content: center;
+    margin-left: 600px;
+
+}
+form{
+    border: black solid 4px;
+    display: flex;
+    margin-left: 200px;
+    flex-direction: column;
+    padding: 20px;
+}
+/*forma*/
+.register h2{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    font-family: 'Sintony', sans-serif;
+}
+
+.register h2:hover{
+    color: darkcyan;
+}
+.form .label{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*servises*/
+.servise{
+    margin-top: 150px;
+    max-width: 440px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 350px;
+
+}
+.service img{
+    width: 400px;
+    height: 350px;
+    padding: 20px;
+    /*width: 30%;*/
+}
+
+footer{
+    margin-top: 100px;
+    background-color: ghostwhite;
+    height: 200px;
+    border: lightgrey solid 2px;
+
+}
+
+footer span {
+    color: darkcyan;
+}
+
+.about__us{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+.about__us p{
+    margin-left: 400px;
+    margin-top: 100px;
+    font-weight: 400;
+    font-family: 'Sintony', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.15em;
+    transition: color 0.5s linear;
+}
+
+.about__us p{
+    color: darkcyan;
+    display: flex;
+    width: 100%;
+    align-items: normal;
+    flex-direction: column;
+}
+
+.about__us h2{
+    color: black;
+    margin: 200px 200px 40px;
+    font-size: 30px;
+    font-family: 'Sintony', sans-serif;
+    letter-spacing: 0.10em;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about__link{
+    margin-left: 200px;
+    letter-spacing: 0.13em;
+    font-size: 18px;
+    font-weight: 200;
+    color: cadetblue;
+    margin-right: 1520px;
+}
+
+.about__link:hover{
+    text-decoration: none;
+}
+
+.about__image{
+    width: 700px;
+    margin-left: 700px;
+    margin-bottom:500px ;
+    border: 5px solid cadetblue;
+}
+
+
+
+
+
+

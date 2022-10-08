@@ -1,0 +1,379 @@
+body{
+    font-family: 'Anton', sans-serif;
+
+
+
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 10px;
+    border-bottom: 3px solid black;
+}
+
+nav a:nth-child(2){
+    margin-left: auto;
+}
+header {
+    background-color: black;
+    height: 100vh;
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+.header-logo{
+    margin-top: 50px;
+    margin-left: 0;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav{
+    color: black;
+    font-family: 'Sintony', sans-serif;
+    text-decoration: none ;
+    font-weight: 700;
+    font-size: 25px;
+    margin-right: 40px;
+    transition: color 0.3s linear;
+}
+.nav:after{
+    position: absolute;
+    content: "";
+    height: 5px;
+    width: 1882px;
+    background-color: black;
+    top: 180px;
+    right: 10px;
+
+}
+.nav:hover{
+    color: darkcyan;
+}
+
+.header-title{
+    color: black;
+    font-family: 'Sintony', sans-serif;
+    font-size: 50px;
+    font-weight: 200;
+    margin-top: 180px;
+
+
+}
+
+.header-subt{
+    color: black;
+    font-size: 80px;
+    font-weight: 800;
+    font-family: 'Sintony', sans-serif;
+    transition: color 0.5s linear;
+    margin-bottom: 50px;
+}
+
+.header-subt:hover{
+    color: darkcyan;
+}
+.header-down{
+    text-align: center ;
+    margin-top: 100px;
+}
+
+.button{
+    background-color: white;
+    padding: 15px 30px;
+    color: black;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Anton', sans-serif;
+    text-decoration: none;
+    transition: color 0.3s linear;
+    border-style: double;
+    border-color: black;
+    border-width: 5px;
+
+
+}
+
+.button:hover{
+    background-color: aliceblue;
+}
+
+.section{
+    background-color: white;
+    height: 100vh;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+p{
+    margin: 0 0 5px;
+}
+
+.info{
+    transform: translateY(-50%);
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.info__wrapper{
+    display: flex;
+    margin: 0 -10px;
+}
+
+.info__block{
+    width: 33.33%;
+    padding: 0 10px;
+}
+
+.info__item{
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25) ;
+    padding: 40px;
+    font-family: 'Sintony', sans-serif;
+}
+
+.info__img{
+   margin-bottom: 20px;
+
+}
+
+.info__img img{
+   height: 30px;
+    align-content: center;
+}
+.info__title{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    margin-bottom: 15px;
+    align-content: center;
+}
+
+.into__text{
+    font-size: 15px;
+    color: black;
+    align-items: center;
+}
+
+.cont{
+    width: 1200px;
+    margin:0 auto;
+}
+
+
+.container h2{
+    justify-content: center;
+}
+
+.services__wrapper{
+    display: flex;
+    margin: 0 -10px;
+}
+
+.services__block{
+    width: 33.33%;
+    padding: 0 10px;
+    margin-top: 40px;
+}
+
+.services__content{
+    height: 500px;
+    background-image: url("offic.png") ;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25) ;
+    background-repeat: no-repeat;
+
+}
+
+.services__tittle{
+    font-family: 'Sintony', sans-serif;
+    letter-spacing: 0.13em;
+}
+.services__item{
+
+}
+
+.services__cont{
+    height: 500px;
+    background-image: url("online.png");
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25) ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.services__con{
+    height: 500px;
+    background-image: url("dost.png") ;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25) ;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+
+.contacts{
+
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25) ;
+    height: 50vh;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    width: 1400px;
+    margin: 0 auto;
+    transform: translateY(-20%);
+}
+
+
+
+
+.form__row{
+    display: flex;
+    margin: 0 -20px;
+    padding-left: 100px;
+
+
+}
+
+.form__group{
+    margin-bottom: 30px ;
+    flex: 1;
+    padding: 0 20px;
+    position: relative;
+
+
+}
+
+.container{
+    max-width: 440px;
+}
+
+.input{
+    width: 100%;
+    padding: 9px 0;
+    outline: 0;
+    border: 0;
+    color: black;
+    font-family: 'Sintony', sans-serif;
+    font-size: 15px;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}
+
+.input:focus + .label{
+    transform: translateY(-25px);
+    font-size: 15px;
+}
+
+.input:not(:placeholder-shown) + .label{
+    transform: translateY(-25px);
+    font-size: 15px;
+}
+
+.label{
+    letter-spacing: 0.15em;
+
+    color: black;
+    position: absolute;
+    top: 10px ;
+    left: 20px;
+    pointer-events: none;
+    transition: all .2s ease ;
+}
+
+.register__btn{
+    background-color: white;
+    padding: 10px 40px ;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Anton', sans-serif;
+    text-decoration: none;
+    transition: color 0.3s linear;
+    border-style: solid;
+    border-color: darkcyan;
+    border-width: 2px;
+
+
+
+}
+
+.register__btn:hover{
+    background-color: cadetblue;
+}
+
+.footer{
+    background-image: url("bg.jpg");
+    height: 10vh;
+    transform: translateY(-80px);
+    border: 1px solid lightsteelblue;
+}
+
+
+
+.about{
+    background-image: url("bg.jpg");
+    padding: 115px 0;
+
+}
+
+.about__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about__block{
+
+}
+
+.bloc__title{
+    color: black;
+    margin: 20px 200px 40px;
+    font-size: 30px;
+    font-family: 'Sintony', sans-serif;
+    letter-spacing: 0.10em;
+
+
+}
+
+.about__text{
+    margin: 80px 200px 40px;
+    font-weight: 400;
+    font-family: 'Sintony', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.15em;
+    transition: color 0.5s linear;
+}
+
+.about__text:hover{
+    color: darkcyan;
+}
+
+.about__link{
+    margin-left: 200px;
+    letter-spacing: 0.13em;
+    font-size: 18px;
+    font-weight: 200;
+    color: cadetblue;
+}
+
+.about__link:hover{
+    text-decoration: none;
+}
+
+.about__image{
+    width: 600px;
+    margin-right: 100px;
+    margin-top:130px ;
+    border: 5px solid cadetblue;
+}
+
